@@ -141,6 +141,17 @@ a {
     color: #333;
 }
 .bg-primary {
-    background-color: #333;
-    color: #f7c08a;
+    color: #333;
+    background-color: #f7c08a;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
