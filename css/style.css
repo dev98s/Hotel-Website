@@ -255,6 +255,10 @@ a {
     padding: 15px;
 }
 
+#contact-info p {
+    padding: 20px;
+}
+
 #main-footer {
     text-align: center;
     background-color: #444;
