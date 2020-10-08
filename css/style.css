@@ -4,6 +4,68 @@
     box-sizing: border-box;
 }
 
+.clr {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #f7c08a;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: white;
+}
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    color: #333;
+    background-color: #f7c08a;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.7em;
@@ -17,12 +79,6 @@ a {
 #navbar {
     background-color: #333;
     overflow: auto;
-}
-
-.container {
-    margin: auto;
-    max-width: 1100px;
-    padding: 0 20px;
 }
 
 #navbar a {
@@ -72,37 +128,9 @@ a {
     padding-bottom: 20px;
 }
 
-.text-primary {
-    color: #f7c08a;
-}
-
-.lead {
-    font-size: 20px;
-}
-
 #showcase p {
     padding-bottom: 20px;
     line-height: 1.7em;
-}
-
-.btn {
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    background-color: #333;
-    padding: 13px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-light {
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.btn:hover {
-    color: #333;
-    background-color: #f7c08a;
 }
 
 #home-info {
@@ -132,26 +160,9 @@ a {
     padding-bottom: 30px;
 }
 
-.bg-dark {
-    background-color: #333;
-    color: white;
-}
-.bg-light {
-    background-color: #f4f4f4;
-    color: #333;
-}
-.bg-primary {
-    color: #333;
-    background-color: #f7c08a;
-}
-
-.box {
-    float: left;
-    width: 33.3%;
-    padding: 50px;
+#main-footer {
     text-align: center;
-}
-
-.box i {
-    margin-bottom: 10px;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
 }
